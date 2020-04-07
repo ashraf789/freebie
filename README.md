@@ -1,5 +1,11 @@
 # freebie
 
+## Some screenshort 
+
+</br>
+<img src="https://i.imgur.com/y8RKfXS.png" />
+</br>
+
 ## Project setup
 ```
 npm install
