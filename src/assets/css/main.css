@@ -12,3 +12,6 @@
 .no-border:hover{
     border: none!important;
 }
+.page-space{
+    margin: 50px;
+}

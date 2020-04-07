@@ -35,13 +35,14 @@
     <div class="container" style="margin-top:100px">
       <h2>Trusted by companies like</h2>
       <div class="company">
+        <img src="../assets/img/supported/southwest.png" />
         <img src="../assets/img/supported/anubis.png" />
         <img src="../assets/img/supported/alonzo.png" />
         <img src="../assets/img/supported/express.png" />
         <img src="../assets/img/supported/maniac.png" />
-        <img src="../assets/img/supported/anubis.png" />
       </div>
     </div>
+    <div class="page-space"></div>
   </div>
 </template>
 

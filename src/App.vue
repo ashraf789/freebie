@@ -2,20 +2,24 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <!-- <home></home> -->
-    <router-view/>
+    <home></home>
+    <awesome-feature></awesome-feature>
+    <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
 import './assets/css/main.css'
 //  import HelloWorld from './components/HelloWorld.vue'
-// import Home from './views/Home.vue';
+import Home from './views/Home.vue'
+import AwesomeFeature from './views/AwesomeFeatures.vue'
+
 export default {
   name: 'App',
-  // components: {
-  //   Home,
-  // }
+  components: {
+    Home,
+    AwesomeFeature,
+  }
 }
 </script>
 
