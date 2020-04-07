@@ -1,0 +1,82 @@
+<template>
+    <div class="home">
+        <Header></Header>
+        <div class="container main is-fluid">
+            <div class="columns">
+                <div class="column"></div>
+                <div class="column is-half body-left">
+                    <div class="container">
+                        <div>
+                            <h2 class="editor-choise img-fit subtitle is-6">
+                                #1 Editors Choise App of 2020
+                            </h2>
+                            <h1 class="title is-1" style="margin-bottom:0px; ">
+                                Best app for your mordern lifestyle
+                            </h1>
+                            <p style="font-size:medium; margin:15px 0px">
+                                Increment productivity with a simple to-do app. app for managing your personal budgets.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="button-blue button is-rounded">
+                                Try for free
+                            </button>
+                            <button class="button no-border" style="color:blue; font-weight:500">
+                                Watch demo video
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column is-one-quarter">
+                    <img src="../assets/img/header/mobile-screen.png">
+                </div>
+                <div class="column"></div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+import Header from '../components/Header.vue'
+export default {
+    name: 'home',
+    components: {
+        Header
+    }
+}
+</script>
+
+<style scoped>
+    .home{
+        margin: 10px;
+    }
+    .main{
+        background-image: url('../assets/img/header/bg.png');
+        padding-top: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .img-fit{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .editor-choise{
+        background-image: url('../assets/img/header/editor-choise.png');
+        padding: 4px 40px;
+        width: fit-content;
+        font-weight: 600;
+    }
+    .body-left{
+        align-content: center;
+        display: grid;
+    }
+    .body-left .container{
+        text-align: initial;
+    }
+    .button-blue{
+        width:130px; 
+        height: 50px;
+    }
+
+</style>

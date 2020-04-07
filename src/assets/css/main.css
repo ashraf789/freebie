@@ -1,0 +1,14 @@
+.button-blue, 
+.button-blue:hover, 
+.button-blue:focus{
+    color: white!important;
+    background-color: blue!important;
+    width: 150px;
+    font-weight: 700;
+}
+
+.no-border,
+.no-border:focus,
+.no-border:hover{
+    border-color: azure!important;
+}
