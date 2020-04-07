@@ -10,5 +10,5 @@
 .no-border,
 .no-border:focus,
 .no-border:hover{
-    border-color: azure!important;
+    border: none!important;
 }
