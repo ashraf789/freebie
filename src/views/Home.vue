@@ -86,7 +86,7 @@ export default {
   height: 50px;
 }
 
-.company img{
-    margin:20px;
+.company img {
+  margin: 20px;
 }
 </style>
