@@ -83,7 +83,6 @@ export default {
 }
 .button-blue {
   width: 130px;
-  height: 50px;
 }
 
 .company img {

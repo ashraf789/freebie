@@ -4,6 +4,7 @@
     color: white!important;
     background-color: blue!important;
     width: 150px;
+    height: 50px!important;
     font-weight: 700;
 }
 
@@ -14,4 +15,20 @@
 }
 .page-space{
     margin: 50px;
+}
+.child-center{
+    display: grid!important;
+    align-content: center;
+}
+.color-blue-light{
+    color: #004eff;
+}
+.color-green-light{
+    color:#008000c2;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
 }
