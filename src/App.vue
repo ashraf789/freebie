@@ -1,27 +1,35 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <Header></Header>
     <home></home>
     <awesome-feature></awesome-feature>
     <key-feature></key-feature>
-    <!-- <router-view/> -->
+    <price-plan></price-plan>
+    <testemonial></testemonial>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import './assets/css/main.css'
-//  import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 import Home from './views/Home.vue'
 import AwesomeFeature from './views/AwesomeFeatures.vue'
 import KeyFeature from './views/KeyFeature.vue'
+import PricePlan from './views/PricePlan.vue';
+import Testemonial from './views/Testemonial.vue';
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
+    Header,
     Home,
     AwesomeFeature,
     KeyFeature,
+    PricePlan,
+    Testemonial,
+    Footer,
   }
 }
 </script>

@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Header></Header>
     <div class="container main is-fluid">
       <div class="columns">
         <div class="column"></div>
@@ -47,12 +46,8 @@
 </template>
 
 <script>
-import Header from "../components/Header.vue";
 export default {
   name: "home",
-  components: {
-    Header
-  }
 };
 </script>
 

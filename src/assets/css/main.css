@@ -26,6 +26,12 @@
 .color-green-light{
     color:#008000c2;
 }
+.color-shadow{
+    color: #f5f7f9;
+}
+.color-whight-dark{
+    color: #999ca5;
+}
 .mt-5{
     margin-top: 5px!important;
 }
@@ -41,4 +47,14 @@
 
 .align-start{
     text-align: start;
+}
+
+.hero-fix-size .title {
+    display: inline-block;
+    max-width: 400px;
+}
+.hero-fix-size .subtitle {
+    margin-top: 5px;
+    max-width: 610px;
+    display: inline-block;
 }

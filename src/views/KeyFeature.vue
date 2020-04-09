@@ -1,6 +1,6 @@
 <template>
   <div class="key-feature">
-    <section class="hero key-feature-hero">
+    <section class="hero hero-fix-size">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">Why you should choose our app</h1>
@@ -127,15 +127,6 @@ export default {
 <style scoped>
 .key-feature {
   margin: 0px 10px;
-}
-.key-feature-hero .title {
-  display: inline-block;
-  max-width: 400px;
-}
-.key-feature-hero .subtitle {
-  margin-top: 5px;
-  max-width: 610px;
-  display: inline-block;
 }
 .key-feature-item p {
   max-width: 250px;
