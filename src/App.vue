@@ -4,6 +4,7 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <home></home>
     <awesome-feature></awesome-feature>
+    <key-feature></key-feature>
     <!-- <router-view/> -->
   </div>
 </template>
@@ -13,12 +14,14 @@ import './assets/css/main.css'
 //  import HelloWorld from './components/HelloWorld.vue'
 import Home from './views/Home.vue'
 import AwesomeFeature from './views/AwesomeFeatures.vue'
+import KeyFeature from './views/KeyFeature.vue'
 
 export default {
   name: 'App',
   components: {
     Home,
     AwesomeFeature,
+    KeyFeature,
   }
 }
 </script>
