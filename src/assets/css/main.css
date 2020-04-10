@@ -51,6 +51,9 @@
 .align-start{
     text-align: start;
 }
+.align-end{
+    text-align: end;
+}
 
 .hero-fix-size .title {
     display: inline-block;
@@ -60,4 +63,7 @@
     margin-top: 5px;
     max-width: 610px;
     display: inline-block;
+}
+.color-bg-shadow{
+    background-color: #b8b9b642;
 }

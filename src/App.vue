@@ -6,22 +6,26 @@
     <key-feature></key-feature>
     <price-plan></price-plan>
     <testemonial></testemonial>
+    <div style="margin-top:100px">
+      <f-a-q></f-a-q>
+    </div>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
-import './assets/css/main.css'
-import Header from './components/Header.vue'
-import Home from './views/Home.vue'
-import AwesomeFeature from './views/AwesomeFeatures.vue'
-import KeyFeature from './views/KeyFeature.vue'
-import PricePlan from './views/PricePlan.vue';
-import Testemonial from './views/Testemonial.vue';
-import Footer from './components/Footer.vue'
+import "./assets/css/main.css";
+import Header from "./components/Header.vue";
+import Home from "./views/Home.vue";
+import AwesomeFeature from "./views/AwesomeFeatures.vue";
+import KeyFeature from "./views/KeyFeature.vue";
+import PricePlan from "./views/PricePlan.vue";
+import Testemonial from "./views/Testemonial.vue";
+import FAQ from "./views/FAQ.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     Home,
@@ -29,9 +33,10 @@ export default {
     KeyFeature,
     PricePlan,
     Testemonial,
-    Footer,
+    FAQ,
+    Footer
   }
-}
+};
 </script>
 
 <style>
