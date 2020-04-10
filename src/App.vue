@@ -6,9 +6,11 @@
     <key-feature></key-feature>
     <price-plan></price-plan>
     <testemonial></testemonial>
-    <div style="margin-top:100px">
-      <f-a-q></f-a-q>
-    </div>
+    <div style="margin-top:100px"></div>
+    <f-a-q></f-a-q>
+    <div style="margin-top:100px"></div>
+
+    <download-page></download-page>
     <Footer></Footer>
   </div>
 </template>
@@ -23,6 +25,7 @@ import PricePlan from "./views/PricePlan.vue";
 import Testemonial from "./views/Testemonial.vue";
 import FAQ from "./views/FAQ.vue";
 import Footer from "./components/Footer.vue";
+import DownloadPage from "./views/DownloadPage.vue";
 
 export default {
   name: "App",
@@ -34,6 +37,7 @@ export default {
     PricePlan,
     Testemonial,
     FAQ,
+    DownloadPage,
     Footer
   }
 };

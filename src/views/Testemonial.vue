@@ -7,7 +7,7 @@
       <div class="column col-right">
         <div class="container align-start">
           <section class="hero hero-fix-size">
-            <h1 class="title has-text-weight-normal">Meet Client Satisfaction by using product</h1>
+            <h1 class="title has-text-weight-semibold">Meet Client Satisfaction by using product</h1>
             <h2
               class="subtitle is-size-6 mt-10"
             >The rise of mobile devices transforms the way we consume. elevant channels such as Facebook.</h2>

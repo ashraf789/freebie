@@ -129,6 +129,9 @@ export default {
 };
 </script>
 <style scoped>
+.faq{
+    margin: 0px 10px;
+}
 .hero-fix-size .title {
   max-width: unset;
 }
