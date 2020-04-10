@@ -22,7 +22,8 @@
       </div>
       <div class="columns mt-20">
         <div class="column"></div>
-        <div class="column plan-monthly">
+        <div class="column">
+          <div class="plan-monthly">
           <div class="plan-option-top child-center">
             <div>
               <span class="is-size-2 has-text-bold">
@@ -48,8 +49,10 @@
               <button class="button-blue button is-rounded">Start free trail</button>
             </div>
           </div>
+          </div>
         </div>
-        <div class="column plan-annually">
+        <div class="column">
+          <div class="plan-annually">
           <div class="plan-option-top child-center">
             <div>
               <span class="is-size-2 has-text-bold">
@@ -75,6 +78,7 @@
               <button class="button-blue button is-rounded">Subscribe Now</button>
               <button class="button is-rounded start-trial mt-10 has-text-weight-semibold">Or Start 14 days trail</button>
             </div>
+          </div>
           </div>
         </div>
         <div class="column"></div>
@@ -121,14 +125,16 @@ export default {
   padding: 0px;
   margin: 10px;
   height: 400px;
-  max-width: 250px;
+  width: 250px;
+  display: inline-block;
   box-shadow: 0px 80px 30px 0px #b8b9b642;
 }
 .plan-annually {
   padding: 0px;
   margin: 10px;
   height: 440px;
-  max-width: 250px;
+  width: 250px;
+  display: inline-block;
   border: 2px solid #ebebeb;
 }
 .plan-option-top {
