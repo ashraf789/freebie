@@ -1,5 +1,5 @@
 <template>
-  <div class="key-feature">
+  <div class="key-feature" id="feature">
     <section class="hero hero-fix-size">
       <div class="hero-body">
         <div class="container">

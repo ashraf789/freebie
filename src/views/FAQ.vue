@@ -1,5 +1,5 @@
 <template>
-  <div class="faq">
+  <div id="faq">
     <section class="hero hero-fix-size">
       <div class="hero-body">
         <div class="container">
@@ -129,8 +129,8 @@ export default {
 };
 </script>
 <style scoped>
-.faq{
-    margin: 0px 10px;
+#faq{
+    margin: 100px 10px;
 }
 .hero-fix-size .title {
   max-width: unset;

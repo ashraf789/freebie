@@ -10,16 +10,16 @@
             <b-navbar-item href="#">
                 Home
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="#feature">
                 Key Features
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="#plan">
                 Pricing
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="#testemonial">
                 Testiminial
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item href="#faq">
                 FAQ
             </b-navbar-item>
             <b-navbar-item href="#">

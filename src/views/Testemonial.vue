@@ -1,5 +1,5 @@
 <template>
-  <div class="testemonial">
+  <div id="testemonial">
     <div class="columns">
       <div class="column">
         <img src="../assets/img/testemonial/satisfaction-client.png" />
@@ -71,8 +71,8 @@ export default {
 </script>
 
 <style scoped>
-.testemonial {
-  margin-top: 150px;
+#testemonial {
+  margin-top: 100px;
 }
 .col-right {
   margin: 0px 10px;

@@ -1,5 +1,5 @@
 <template>
-  <div class="price-plan">
+  <div id="plan">
     <div class="container">
       <section class="hero hero-fix-size">
         <div class="hero-body">
@@ -94,7 +94,7 @@ export default {
 </script>
 
 <style scoped>
-.price-plan {
+#plan {
   margin-top: 80px;
 }
 
