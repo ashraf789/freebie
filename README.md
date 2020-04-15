@@ -21,6 +21,9 @@
 ## All screenshot 
 https://github.com/ashraf789/freebie/blob/master/src/screenshot/
 
+## PSD design link
+https://www.uistore.design/items/applab-landing-page-for-photoshop/
+
 ## Project setup
 ```
 npm install
